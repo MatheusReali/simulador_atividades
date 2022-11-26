@@ -204,7 +204,7 @@ A função irá retornar um array com a data final da última atividade do dataf
 
 Resultado para 1.000 (mil) simulações da atividade 'ELEVAÇÃO TOTAL DA ALVENARIA' da Torre A, onde o ponto vermelho indica aproximadamente a data em que as atividades realmente teminaram.
 
-![image](https://user-images.githubusercontent.com/95454600/204097343-ed3c1a2d-3383-451c-9a09-78bfa398f28b.png)
+![image](https://user-images.githubusercontent.com/95454600/204112016-d238f870-8af4-4578-a7c8-a9a7a10bdfb4.png)
 
 ## VALIDAÇÃO DOS RESULTADOS
 
@@ -216,23 +216,23 @@ Vamos, então, simular as atividades de 'MASSA PVA/ 1a DEMÃO DE PINTURA' em doi
 
 ### Primeiro cenário
 
-Atividades da Torre B com a distribuição de atrasos da empresa da Torre A iniciando na data '2021-10-13' com mil simulações
+Atividades da Torre B com a distribuição de atrasos da empresa da Torre A iniciando na data '2022-02-23' com mil simulações
 
-![image](https://user-images.githubusercontent.com/95454600/204098320-4861ad0f-fb70-47e2-9e6d-061f5d6dc513.png)
+![image](https://user-images.githubusercontent.com/95454600/204112563-3616dee2-602d-4d5c-bdf3-9219986c5c15.png)
 
 ### Segundo cenário
 
-Atividades da Torre B com a distribuição de atrasos da empresa da Torre B iniciando na mesma data ('2021-10-13') com mil simulações
+Atividades da Torre B com a distribuição de atrasos da empresa da Torre B iniciando na mesma data ('2022-02-23') com mil simulações
 
-![image](https://user-images.githubusercontent.com/95454600/204098104-8ad20de0-8b4a-47fd-8818-a35820b215bf.png)
+![image](https://user-images.githubusercontent.com/95454600/204112591-c4281f58-96ab-4493-9c01-3538f5075e42.png)
 
 ## CONCLUSÕES
 
 A partir da análise acima, é possível concluir que o simulador consegue captar a diferença entre as médias de atraso entre as empresas da Torre A e da Torre B e transportar essa distribuição de atrasos para a simulação.
 
-Com a análise dos dois cenários expostos acima, é possível observar que o modelo demonstra um significativo ganho no prazo de execução desse serviço ao utilizar a segunda empresa. A empresa 1 terminaria em média no mês 12/22, enquanto que a empresa 2 terminaria em média no mês 07/22.
+Com a análise dos dois cenários expostos acima, é possível observar que o modelo demonstra um significativo ganho na precisão do atraso de execução desse serviço ao utilizar a segunda empresa. A empresa 1 terminaria em média no mês 12/22, enquanto que a empresa 2 terminaria em média no mês 11/22 e com um desvio menor entre essa data.
 
-Apesar de as datas não serem precisas (é esperado que essa atividade termine antes das datas simuladas), o modelo já é de grande ajuda na identificação de possíveis atrasos devido à produtividade de uma empresa.
+Apesar de as datas não serem precisas, o modelo já é de grande ajuda na identificação de possíveis atrasos devido à produtividade de uma empresa.
 
 Vale ressaltar que os dados utilizados possuem diversas inconsistências (andares faltando, datas não exatas etc.) e isso pode causar alterações significativas no cálculo das distribuições de atraso das atividades.
 
